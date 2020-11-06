@@ -1,0 +1,84 @@
+html, body {
+    height: 80%;
+    margin: 10px;
+    background-color:aliceblue;
+
+}
+
+.titleBar {
+    background-color: #000;
+    display: block;
+    color: #fff;
+    padding-left:16px;
+}
+.moviestvshows {
+    background-color: crimson;
+    display: block;
+    color: #fff;
+    padding-left: 16px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grid2x2 {
+    min-height: 100%;
+    display: inline-block;
+    flex-direction:column;
+    width:50%;
+}
+
+    .grid2x2 > div {
+        display: flex;
+/*        flex-basis: calc(50% - 40px);*/
+        justify-content: center;
+        flex-direction: column;
+/*        width:50%;*/
+        border:2px solid black;
+    }
+
+        .grid2x2 > div > div {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+.box {
+    margin: 10px;
+}
